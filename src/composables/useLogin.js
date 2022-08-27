@@ -3,7 +3,7 @@ import { ref } from 'vue'
 
 const error = ref(null)
 
-const login = async (email, pasword) => {
+const login = async (email, password) => {
   error.value = null
 
   try {
